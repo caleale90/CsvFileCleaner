@@ -2,3 +2,6 @@
 *.xml
 *.iml
 .idea/
+/dist/
+/build/
+/csvfilecleaner.egg-info/
