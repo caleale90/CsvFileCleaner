@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='csvfilecleaner',
-      version='0.3',
+      version='0.5',
       description='A very simple utility class for cleaning csv files',
       keywords='csv clean file',
       url='',
