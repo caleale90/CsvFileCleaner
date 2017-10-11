@@ -23,7 +23,7 @@ Type `git clone https://github.com/caleale90/CsvFileCleaner.git`
 If you clone the repository, you can also use the code from command line.
 
 #### Example
-To clean a file use this command from terminal
+To clean a file from command line use this instruction
 
 `python clean.py <path-to-file>/file-to-clean.csv --separator="|"`
 
