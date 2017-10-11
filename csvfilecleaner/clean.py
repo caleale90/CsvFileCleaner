@@ -3,6 +3,7 @@ import os
 import re
 import sys
 from shutil import copyfile
+import unidecode
 
 
 class CsvFileCleaner:
@@ -37,6 +38,7 @@ class CsvFileCleaner:
     def __clean(self, text):
         result = ""
         for token in text.split(self.separator):
+            token = unidecode.unidecode(token)
             token = token.lower().replace("\n", "")
             text = re.sub('[^0-9a-zA-Z]+', ' ', token)
             result += text + self.separator
