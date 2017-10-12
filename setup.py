@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(name='csvfilecleaner',
-      version='0.5',
+      version='0.6',
       description='A very simple utility class for cleaning csv files',
       keywords='csv clean file',
-      url='',
+      url='https://github.com/caleale90/CsvFileCleaner',
       author='Alessandro Calefati',
       author_email='caleale90@gmail.com',
       license='MIT',
